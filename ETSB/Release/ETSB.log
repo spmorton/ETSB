@@ -1,0 +1,30 @@
+﻿Build started 11/9/2014 9:39:17 PM.
+Project "C:\Users\scott\Documents\Visual Studio 2012\Projects\ETSB\ETSB\ETSB.vcxproj" on node 2 (Build target(s)).
+InitializeBuildStatus:
+  Creating "Release\ETSB.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  F:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AIC:\Windows\Microsoft.NET\Framework\v2.0.50727\ /AI"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\ETSB.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /TP /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /analyze- /errorReport:prompt /d1clr:nostdlib stdafx.cpp
+  stdafx.cpp
+  F:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AIC:\Windows\Microsoft.NET\Framework\v2.0.50727\ /AI"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\ETSB.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /TP /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /analyze- /errorReport:prompt /d1clr:nostdlib AssemblyInfo.cpp ETSB.cpp
+  AssemblyInfo.cpp
+  ETSB.cpp
+  Generating Code...
+CoreResGen:
+  "C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\Resgen.exe" /useSourcePath /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /compile Form1.resX,Release\ETSB.Form1.resources
+  Processing resource file "Form1.resX" into "Release\ETSB.Form1.resources".
+ResourceCompile:
+  C:\Program Files\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\app.res" app.rc 
+Link:
+  F:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\scott\Documents\Visual Studio 2012\Projects\ETSB\Release\ETSB.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\ETSB.Form1.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\scott\Documents\Visual Studio 2012\Projects\ETSB\Release\ETSB.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\app.res
+  Release\AssemblyInfo.obj
+  Release\ETSB.obj
+  Release\stdafx.obj
+  ETSB.vcxproj -> C:\Users\scott\Documents\Visual Studio 2012\Projects\ETSB\Release\ETSB.exe
+FinalizeBuildStatus:
+  Deleting file "Release\ETSB.unsuccessfulbuild".
+  Touching "Release\ETSB.lastbuildstate".
+Done Building Project "C:\Users\scott\Documents\Visual Studio 2012\Projects\ETSB\ETSB\ETSB.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.41
