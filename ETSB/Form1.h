@@ -80,6 +80,7 @@ namespace ETSB {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(Form1::typeid));
 			this->Rdp = (gcnew System::Windows::Forms::NumericUpDown());
 			this->label_Rdp = (gcnew System::Windows::Forms::Label());
 			this->label_Rdp_Multiplier = (gcnew System::Windows::Forms::Label());
@@ -231,22 +232,24 @@ namespace ETSB {
 			this->label1_Istar->AutoSize = true;
 			this->label1_Istar->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
 				static_cast<System::Byte>(0)));
-			this->label1_Istar->Location = System::Drawing::Point(465, 50);
+			this->label1_Istar->Image = (cli::safe_cast<System::Drawing::Image^  >(resources->GetObject(L"label1_Istar.Image")));
+			this->label1_Istar->Location = System::Drawing::Point(471, 50);
+			this->label1_Istar->MinimumSize = System::Drawing::Size(70, 20);
 			this->label1_Istar->Name = L"label1_Istar";
-			this->label1_Istar->Size = System::Drawing::Size(85, 20);
+			this->label1_Istar->Size = System::Drawing::Size(70, 20);
 			this->label1_Istar->TabIndex = 12;
-			this->label1_Istar->Text = L"Istar = σT4";
 			// 
 			// label1_eStar
 			// 
 			this->label1_eStar->AutoSize = true;
 			this->label1_eStar->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
 				static_cast<System::Byte>(0)));
-			this->label1_eStar->Location = System::Drawing::Point(381, 100);
+			this->label1_eStar->Image = (cli::safe_cast<System::Drawing::Image^  >(resources->GetObject(L"label1_eStar.Image")));
+			this->label1_eStar->Location = System::Drawing::Point(418, 100);
+			this->label1_eStar->MinimumSize = System::Drawing::Size(123, 20);
 			this->label1_eStar->Name = L"label1_eStar";
-			this->label1_eStar->Size = System::Drawing::Size(169, 20);
+			this->label1_eStar->Size = System::Drawing::Size(123, 20);
 			this->label1_eStar->TabIndex = 14;
-			this->label1_eStar->Text = L"Estar = Istar4πRstar^2";
 			// 
 			// Estar
 			// 
@@ -264,11 +267,12 @@ namespace ETSB {
 			this->label1_Iatplanet->AutoSize = true;
 			this->label1_Iatplanet->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
 				static_cast<System::Byte>(0)));
-			this->label1_Iatplanet->Location = System::Drawing::Point(347, 150);
+			this->label1_Iatplanet->Image = (cli::safe_cast<System::Drawing::Image^  >(resources->GetObject(L"label1_Iatplanet.Image")));
+			this->label1_Iatplanet->Location = System::Drawing::Point(418, 150);
+			this->label1_Iatplanet->MinimumSize = System::Drawing::Size(123, 20);
 			this->label1_Iatplanet->Name = L"label1_Iatplanet";
-			this->label1_Iatplanet->Size = System::Drawing::Size(203, 20);
+			this->label1_Iatplanet->Size = System::Drawing::Size(123, 20);
 			this->label1_Iatplanet->TabIndex = 16;
-			this->label1_Iatplanet->Text = L"Iatplanet = Estar / 4πRdp^2";
 			// 
 			// Iatp
 			// 
@@ -286,11 +290,12 @@ namespace ETSB {
 			this->label1_Tatplanet->AutoSize = true;
 			this->label1_Tatplanet->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
 				static_cast<System::Byte>(0)));
-			this->label1_Tatplanet->Location = System::Drawing::Point(330, 200);
+			this->label1_Tatplanet->Image = (cli::safe_cast<System::Drawing::Image^  >(resources->GetObject(L"label1_Tatplanet.Image")));
+			this->label1_Tatplanet->Location = System::Drawing::Point(433, 200);
+			this->label1_Tatplanet->MinimumSize = System::Drawing::Size(108, 20);
 			this->label1_Tatplanet->Name = L"label1_Tatplanet";
-			this->label1_Tatplanet->Size = System::Drawing::Size(220, 20);
+			this->label1_Tatplanet->Size = System::Drawing::Size(108, 20);
 			this->label1_Tatplanet->TabIndex = 18;
-			this->label1_Tatplanet->Text = L"Tatplanet = (Iatplanet /  σ)^1/4";
 			// 
 			// Tatp
 			// 
@@ -308,11 +313,12 @@ namespace ETSB {
 			this->label1_Tofplanet->AutoSize = true;
 			this->label1_Tofplanet->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, 
 				static_cast<System::Byte>(0)));
-			this->label1_Tofplanet->Location = System::Drawing::Point(294, 250);
+			this->label1_Tofplanet->Image = (cli::safe_cast<System::Drawing::Image^  >(resources->GetObject(L"label1_Tofplanet.Image")));
+			this->label1_Tofplanet->Location = System::Drawing::Point(388, 250);
+			this->label1_Tofplanet->MinimumSize = System::Drawing::Size(153, 20);
 			this->label1_Tofplanet->Name = L"label1_Tofplanet";
-			this->label1_Tofplanet->Size = System::Drawing::Size(256, 20);
+			this->label1_Tofplanet->Size = System::Drawing::Size(153, 20);
 			this->label1_Tofplanet->TabIndex = 20;
-			this->label1_Tofplanet->Text = L"Tofplanet = Tatplanet * (1 - Albedo)";
 			// 
 			// Tofp
 			// 
@@ -358,7 +364,7 @@ namespace ETSB {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(799, 315);
+			this->ClientSize = System::Drawing::Size(784, 312);
 			this->Controls->Add(this->Exit);
 			this->Controls->Add(this->Albedo_Label);
 			this->Controls->Add(this->Albedo);
@@ -383,7 +389,11 @@ namespace ETSB {
 			this->Controls->Add(this->label_Rdp_Multiplier);
 			this->Controls->Add(this->label_Rdp);
 			this->Controls->Add(this->Rdp);
+			this->MaximizeBox = false;
+			this->MaximumSize = System::Drawing::Size(800, 350);
+			this->MinimumSize = System::Drawing::Size(800, 350);
 			this->Name = L"Form1";
+			this->SizeGripStyle = System::Windows::Forms::SizeGripStyle::Hide;
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"ETSB (Expected Tempuratures of Solar Bodies) - Scott Morton";
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^  >(this->Rdp))->EndInit();
